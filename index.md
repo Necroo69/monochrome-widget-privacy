@@ -1,11 +1,11 @@
 # Monochrome Widget — Privacy Policy
 
-**Effective date:** 10 November 2026
+**Effective date:** 11 November 2026
 **Developer:** Necroo69
 **Contact:** open an issue at <https://github.com/Necroo69/monochrome-widget-privacy/issues>
 
 Monochrome Widget ("the app") puts clock, world clock, date, battery, weather,
-step, note and quick-control widgets on your Android home screen. This policy explains what information the app uses, where
+step, music, note and quick-control widgets on your Android home screen. This policy explains what information the app uses, where
 it goes, and the choices you have.
 
 Monochrome Widget is an independent app and is not affiliated with Nothing
@@ -17,8 +17,8 @@ Technology Limited.
 - The developer runs **no servers** and receives **none** of your data.
 - Your **approximate location** (or a city you choose) is sent to the weather
   service **Open-Meteo** so the weather widget can show a forecast.
-- Everything else (your widget styles, settings, notes, chosen cities and step
-  count) stays on your phone.
+- Everything else (your widget styles, settings, notes, chosen cities, step
+  count and what's playing) stays on your phone.
 
 ## Information the app uses
 
@@ -95,6 +95,28 @@ no steps.
 To stop step counting, revoke the physical activity permission in Android
 Settings or remove the widget.
 
+### What's playing (optional)
+
+The Now Playing widget shows the song, podcast or other audio playing in your
+music app, with its cover art, and has play, pause and skip buttons. Android
+shares this only with apps that have **notification access**, so the widget
+asks you to turn that on in Android Settings. You can decline; the widget then
+shows nothing.
+
+Android's notification access screen warns that an app with this access could
+read your notifications. Monochrome Widget does not: it only asks Android
+which app is playing, what the track is called, and whether it is paused, and
+sends play, pause and skip to that app when you press the buttons.
+
+- It does not read, store or send your notifications or messages.
+- The track title, artist and cover art are shown on the widget only. They are
+  not saved and never leave your phone.
+- The dot pattern on the widget is decoration, not a recording; the app
+  does not use the microphone.
+
+To stop this, turn off notification access for Monochrome Widget in Android
+Settings, or remove the widget.
+
 ### Battery level
 
 The battery widget reads your phone's battery level and charging state from
@@ -123,6 +145,7 @@ app.
   identifier for tracking.
 - It does not use the camera to take pictures or video.
 - It does not track where you walk; the step count is a number only.
+- It does not read your notifications or record audio.
 - It does not send data to the developer.
 
 ## Data retention and deletion
