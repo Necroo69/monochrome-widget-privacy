@@ -1,11 +1,11 @@
 # Monochrome Widget — Privacy Policy
 
-**Effective date:** 9 November 2026
+**Effective date:** 10 November 2026
 **Developer:** Necroo69
 **Contact:** open an issue at <https://github.com/Necroo69/monochrome-widget-privacy/issues>
 
 Monochrome Widget ("the app") puts clock, world clock, date, battery, weather,
-note and quick-control widgets on your Android home screen. This policy explains what information the app uses, where
+step, note and quick-control widgets on your Android home screen. This policy explains what information the app uses, where
 it goes, and the choices you have.
 
 Monochrome Widget is an independent app and is not affiliated with Nothing
@@ -17,8 +17,8 @@ Technology Limited.
 - The developer runs **no servers** and receives **none** of your data.
 - Your **approximate location** (or a city you choose) is sent to the weather
   service **Open-Meteo** so the weather widget can show a forecast.
-- Everything else (your widget styles, settings, notes and chosen cities) stays
-  on your phone.
+- Everything else (your widget styles, settings, notes, chosen cities and step
+  count) stays on your phone.
 
 ## Information the app uses
 
@@ -79,6 +79,22 @@ widget. The app uses notifications for nothing else.
 The Wi-Fi, Bluetooth and Do Not Disturb buttons simply open Android's own
 settings screens. The app does not read or change those settings itself.
 
+### Step count (optional)
+
+The step ring widget shows how many steps you have taken today. It reads your
+phone's built-in step counter sensor, which counts steps on the phone itself.
+On Android 10 and later the app first asks for the *physical activity*
+permission (`ACTIVITY_RECOGNITION`); you can decline, and the ring then shows
+no steps.
+
+- The app keeps only today's count and the sensor readings needed to work it
+  out, stored on your phone.
+- Your steps are never sent to the developer, Open-Meteo or anyone else.
+- The app does not use Google Fit, Health Connect or any other fitness service.
+
+To stop step counting, revoke the physical activity permission in Android
+Settings or remove the widget.
+
 ### Battery level
 
 The battery widget reads your phone's battery level and charging state from
@@ -106,6 +122,7 @@ app.
 - It does not collect contacts, photos, files, precise location, or any
   identifier for tracking.
 - It does not use the camera to take pictures or video.
+- It does not track where you walk; the step count is a number only.
 - It does not send data to the developer.
 
 ## Data retention and deletion
