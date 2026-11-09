@@ -1,11 +1,11 @@
 # Monochrome Widget — Privacy Policy
 
-**Effective date:** 7 November 2026
+**Effective date:** 9 November 2026
 **Developer:** Necroo69
 **Contact:** open an issue at <https://github.com/Necroo69/monochrome-widget-privacy/issues>
 
-Monochrome Widget ("the app") puts clock, date, battery and weather widgets on your
-Android home screen. This policy explains what information the app uses, where
+Monochrome Widget ("the app") puts clock, world clock, date, battery, weather,
+note and quick-control widgets on your Android home screen. This policy explains what information the app uses, where
 it goes, and the choices you have.
 
 Monochrome Widget is an independent app and is not affiliated with Nothing
@@ -17,7 +17,8 @@ Technology Limited.
 - The developer runs **no servers** and receives **none** of your data.
 - Your **approximate location** (or a city you choose) is sent to the weather
   service **Open-Meteo** so the weather widget can show a forecast.
-- Everything else (your widget styles and settings) stays on your phone.
+- Everything else (your widget styles, settings, notes and chosen cities) stays
+  on your phone.
 
 ## Information the app uses
 
@@ -51,6 +52,33 @@ Your widget styles (colors, corners, text), app settings (theme, 12/24-hour
 clock, °C/°F, weather refresh rate) and the last forecast are stored only on
 your phone.
 
+### Notes
+
+Text you write in the sticky note widget is stored only on your phone and is
+never sent anywhere.
+
+### World clock cities
+
+The cities shown by the world clock widget are picked from a list built into
+the app. Choosing a city sends nothing over the internet, and your choice is
+stored on your phone.
+
+### Flashlight and notifications
+
+The quick-controls widget can turn your phone's flashlight on and off. It
+switches only the camera's flash; it does not open the camera, take photos or
+record video, and it needs no camera permission.
+
+While the flashlight is on, the app shows a "Flashlight on" notification so the
+light can stay on and you can turn it off. On Android 13 and later the app asks
+for permission to show notifications (`POST_NOTIFICATIONS`) when you add this
+widget. The app uses notifications for nothing else.
+
+### Settings shortcuts
+
+The Wi-Fi, Bluetooth and Do Not Disturb buttons simply open Android's own
+settings screens. The app does not read or change those settings itself.
+
 ### Battery level
 
 The battery widget reads your phone's battery level and charging state from
@@ -77,6 +105,7 @@ app.
 - It does not sell or share your information for advertising.
 - It does not collect contacts, photos, files, precise location, or any
   identifier for tracking.
+- It does not use the camera to take pictures or video.
 - It does not send data to the developer.
 
 ## Data retention and deletion
